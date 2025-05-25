@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+    font-family: Arial, sans-serif;
+    font-weight: 400;
+    line-height: 1.4;
+    color: white;
+    background: url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+}
+
+header {
+    text-align: center;
+    padding: 1rem;
+}
+
+form {
+    background: rgba(136, 136, 206, 0.7);
+    min-width: 300px;
+    max-width: 600px;
+    width: 70vw;
+    margin: 0 auto;
+    padding: 2rem;
+    border-radius: 5px;
+}
+
+fieldset {
+    border: none;
+    padding: 2rem 0 0 0 
+}
+
+
+label {
+    display: block;
+    margin: 0.5rem 0;
+}
+
+input,
+textarea,
+select {
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 2em;
+    border-radius: 5px;
+    padding: 0.5em;
+    border: inherit;
+}
+
+input[type="radio"], input[type="checkbox"] {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+}
+
+input[type="submit"] {
+    display: block;
+    width: 60%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: green;
+    border-color: inherit;
+    min-width: 300px;
+    cursor: pointer;
+}

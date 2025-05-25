@@ -1,0 +1,55 @@
+#main{
+    background-color:#eee ;
+    margin: 35px 0;
+    border-radius: 7px;
+    padding: 4px;
+    text-align: center;
+}
+
+#title{
+    
+    font-size:3.5rem;
+    line-height: 1.2;
+}
+img{
+    display: block;
+    max-width:100%;
+    margin: 0 auto;
+    height: auto;
+}
+
+#img-div{
+    background-color: white;
+    padding: 10px;
+}
+
+#img-caption{
+    font-size: 1.4rem;
+    margin: 15px 0 5px 0;
+}
+
+#headline{
+    margin: 56px;
+}
+
+section > ul{
+    margin: 20px 25vw;
+}
+
+section > ul > li{
+    text-align: left;
+    margin: 20px 60px;
+    line-height: 2;
+    font-size: 1.4rem;
+}
+
+blockquote {
+    text-align: left;
+    margin: 20px 25vw;
+    font-style: italic;
+    font-size: 1.1rem;
+}
+
+h3{
+    margin: 30px 20vw;
+}
